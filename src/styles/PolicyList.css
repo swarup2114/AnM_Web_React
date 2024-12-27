@@ -1,0 +1,38 @@
+.policy-list-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+
+  
+  .policy-list-icon-toggle-on {
+    /* color: rgb(124, 119, 245);
+     */
+     color: orangered;
+     font-size: 30px;
+  }
+  .policy-list-icon-toggle-off{
+    font-size: 30px;
+  }
+  
+  .policy-list-dialog .MuiDialog-paper {
+    width: 600px;
+    max-width: 100%;
+  }
+  .policy-list-dialog-content {
+    /* max-width: 200px; */
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+  }
+  
+  .policy-list-dialog-title {
+    text-align: center;
+  }
+  
+ 

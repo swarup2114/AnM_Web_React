@@ -1,0 +1,13 @@
+/* CSS for the custom styling */
+.custom-textfield .MuiInputBase-input {
+    color: white !important; /* Set input text color to white */
+  }
+  
+  .custom-textfield .MuiInputLabel-root {
+    color: white !important; /* Set label color to white */
+  }
+  
+  .custom-textfield .MuiInputBase-input::placeholder {
+    color: white !important; /* Set placeholder text color to white */
+  }
+  

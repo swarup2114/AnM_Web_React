@@ -1,0 +1,74 @@
+.header-appBar.header-custom {
+  background-color: #fff;
+  color: rgb(25 118 210);
+}
+
+.header-toolbar.header-custom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-navLink.header-custom {
+  text-decoration: none;
+  color: rgb(25 118 210);
+}
+
+.header-navLinkActive.header-custom {
+  padding-bottom: 10px;
+  border-bottom: 2px solid red;
+}
+
+.header-menuButton.header-custom {
+  font-weight: 700;
+  padding-bottom: 10px;
+  transition: border-bottom 0.3s ease;
+  border-radius: 0;
+}
+
+.header-iconButton.header-custom {
+  color: inherit;
+}
+
+.header-personIcon.header-custom {
+  font-size: 30px;
+  color: #0b4465;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+.header-card.header-custom {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  width: 150px;
+  box-shadow: 3;
+}
+
+.header-cardContent.header-custom {
+  text-align: center;
+}
+
+.header-mobileBox.header-custom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-mobileIconBox.header-custom {
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  padding: 0px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.header-mobileCard.header-custom {
+  position: absolute;
+  top: 60px;
+  right: 5px;
+  width: 130px;
+  box-shadow: 3;
+}

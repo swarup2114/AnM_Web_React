@@ -1,0 +1,191 @@
+/* RecordsContainer.css */
+
+.record-container-wrapper.record-container-custom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.record-container-card-container.record-container-custom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+  height: 0;
+  flex: 1 1 100%;
+  max-width: 100%;
+}
+
+.record-card.record-container-custom {
+  flex: 1 1 100%;
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+
+.record-card-inner.record-container-custom {
+  font-size: 12px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.record-card-inner:hover.record-container-custom {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.record-card-content.record-container-custom {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.icon-button.record-container-custom {
+  margin-right: 16px;
+  padding: 12px;
+  border-radius: 50%;
+  color: white;
+  background-color: #1976d2;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon-button:hover.record-container-custom {
+  color: black;
+}
+
+.record-text-container.record-container-custom {
+  display: flex;
+  flex-direction: column;
+}
+
+.record-event.record-container-custom {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+.record-count.record-container-custom {
+  font-size: 0.875rem;
+  color: #757575;
+}
+
+.pie-chart-container.record-container-custom {
+  flex: 1;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 599px) {
+  .record-container-wrapper.record-container-custom {
+    flex-direction: column;
+  }
+
+  .record-container-card-container.record-container-custom {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .record-card.record-container-custom {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .pie-chart-container.record-container-custom {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .record-container-wrapper.record-container-custom {
+    flex-direction: column;
+  }
+
+  .record-container-card-container.record-container-custom {
+    flex: 1 1 600%;
+    max-width: 100%;
+  }
+
+  .record-card.record-container-custom {
+    flex: 1 1 45%;
+    max-width: 100%;
+  }
+
+  .pie-chart-container.record-container-custom {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .record-container-wrapper.record-container-custom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .record-container-card-container.record-container-custom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .record-card.record-container-custom {
+    flex: 1 1 40%;
+    max-width: 50%;
+    margin-bottom: 16px;
+  }
+
+  .pie-chart-container.record-container-custom {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .record-container-wrapper.record-container-custom {
+    flex-direction: row;
+  }
+
+  .record-container-card-container.record-container-custom {
+    flex: 1 1 60%;
+    max-width: 70%;
+  }
+
+  .record-card.record-container-custom {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+
+  .record-event.record-container-custom {
+    font-size: 14px;
+  }
+
+  .pie-chart-container.record-container-custom {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .record-container-wrapper.record-container-custom {
+    flex-direction: row;
+  }
+
+  .record-container-card-container.record-container-custom {
+    flex: 1 1 60%;
+    max-width: 60%;
+  }
+
+  .record-card.record-container-custom {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+
+  .pie-chart-container.record-container-custom {
+    width: 30%;
+  }
+}

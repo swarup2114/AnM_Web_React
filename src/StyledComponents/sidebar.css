@@ -1,0 +1,62 @@
+.sidebar-drawer {
+  width: 250px;
+  flex-shrink: 0;
+  height: 100vh;
+}
+
+.sidebar-paper {
+  width: 250px;
+  background-color: #f4f7fc;
+  box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  color: rgb(76 103 174);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo {
+  width: 150px;
+  padding-left: 25px;
+}
+
+.sidebar-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px 0px;
+}
+
+.sidebar-listItem {
+  cursor: pointer;
+  margin-bottom: 0;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-listItem:last-of-type {
+  margin-bottom: 30px;
+}
+
+.sidebar-listItemSelected {
+  background-color: #d1e3ff;
+}
+
+.sidebar-listItem:hover:not(.sidebar-listItemSelected) {
+  background-color: #f0f0f0;
+}
+
+.sidebar-listItemIcon {
+  min-width: 32px;
+  color: rgb(76 103 174);
+  /* color: rgb(0, 0, 0); */
+}
+
+.sidebar-listItemText {
+  margin-left: 8px;
+}
+
+.sidebar-menuIcon {
+  position: absolute;
+  top: 10px;
+  left: 24px;
+  z-index: 11000;
+  color: black;
+}
